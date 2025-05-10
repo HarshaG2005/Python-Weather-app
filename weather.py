@@ -1,7 +1,8 @@
 import requests
 import json
+n=input("City:")
 api='ed8585fee9ea4e524bbf1493452439eb'
-ct="Negombo"
+ct=n
 
 params={ 'q':ct,
         'appid':api,
